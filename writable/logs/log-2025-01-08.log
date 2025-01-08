@@ -1,0 +1,272 @@
+CRITICAL - 2025-01-08 02:39:38 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "window.location.href=''"
+[Method: GET, Route: window.location.href=%27%27]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('window.location.href=\'\'')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('window.location.href=\'\'')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\alief\\Downloads\\perpustakaansigma\\public\\index.php')
+CRITICAL - 2025-01-08 03:59:59 --> Error: Class "CodeIgniter\Encryption\Password" not found
+[Method: GET, Route: administrator/register]
+in APPPATH\Controllers\Administrator.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Administrator->register()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\alief\\Downloads\\perpustakaansigma\\public\\index.php')
+CRITICAL - 2025-01-08 04:00:31 --> Error: Class "CodeIgniter\Encryption\Password" not found
+[Method: GET, Route: administrator/register]
+in APPPATH\Controllers\Administrator.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Administrator->register()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\alief\\Downloads\\perpustakaansigma\\public\\index.php')
+CRITICAL - 2025-01-08 04:02:55 --> Error: Class "CodeIgniter\Encryption\Password" not found
+[Method: GET, Route: administrator/register]
+in APPPATH\Controllers\Administrator.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Administrator->register()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\alief\\Downloads\\perpustakaansigma\\public\\index.php')
+CRITICAL - 2025-01-08 04:02:58 --> Error: Class "CodeIgniter\Encryption\Password" not found
+[Method: GET, Route: administrator/register]
+in APPPATH\Controllers\Administrator.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Administrator->register()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\alief\\Downloads\\perpustakaansigma\\public\\index.php')
+CRITICAL - 2025-01-08 04:04:46 --> Error: Class "CodeIgniter\Encryption\Password" not found
+[Method: GET, Route: administrator/register]
+in APPPATH\Controllers\Administrator.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Administrator->register()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\alief\\Downloads\\perpustakaansigma\\public\\index.php')
+CRITICAL - 2025-01-08 04:04:47 --> Error: Class "CodeIgniter\Encryption\Password" not found
+[Method: GET, Route: administrator/register]
+in APPPATH\Controllers\Administrator.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Administrator->register()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\alief\\Downloads\\perpustakaansigma\\public\\index.php')
+CRITICAL - 2025-01-08 04:04:48 --> Error: Class "CodeIgniter\Encryption\Password" not found
+[Method: GET, Route: administrator/register]
+in APPPATH\Controllers\Administrator.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Administrator->register()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\alief\\Downloads\\perpustakaansigma\\public\\index.php')
+CRITICAL - 2025-01-08 04:05:29 --> ErrorException: Undefined variable $hashedPassword
+[Method: GET, Route: administrator/register]
+in APPPATH\Views\index.php on line 2.
+ 1 APPPATH\Views\index.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $hashedPassword', 'C:\\Users\\alief\\Downloads\\perpustakaansigma\\app\\Views\\index.php', 2)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\alief\\Downloads\\perpustakaansigma\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Administrator.php(20): view('index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Administrator->register()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\alief\\Downloads\\perpustakaansigma\\public\\index.php')
+CRITICAL - 2025-01-08 04:05:29 --> ErrorException: Undefined variable $hashedPassword
+[Method: GET, Route: administrator/register]
+in APPPATH\Views\index.php on line 2.
+ 1 APPPATH\Views\index.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $hashedPassword', 'C:\\Users\\alief\\Downloads\\perpustakaansigma\\app\\Views\\index.php', 2)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\alief\\Downloads\\perpustakaansigma\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Administrator.php(20): view('index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Administrator->register()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\alief\\Downloads\\perpustakaansigma\\public\\index.php')
+CRITICAL - 2025-01-08 04:05:42 --> Error: Class "CodeIgniter\Encryption\Password" not found
+[Method: GET, Route: administrator/register]
+in APPPATH\Controllers\Administrator.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Administrator->register()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\alief\\Downloads\\perpustakaansigma\\public\\index.php')
+CRITICAL - 2025-01-08 04:05:43 --> Error: Class "CodeIgniter\Encryption\Password" not found
+[Method: GET, Route: administrator/register]
+in APPPATH\Controllers\Administrator.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Administrator->register()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\alief\\Downloads\\perpustakaansigma\\public\\index.php')
+CRITICAL - 2025-01-08 04:06:01 --> Error: Class "CodeIgniter\Encryption\Password" not found
+[Method: GET, Route: administrator/register]
+in APPPATH\Controllers\Administrator.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Administrator->register()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\alief\\Downloads\\perpustakaansigma\\public\\index.php')
+CRITICAL - 2025-01-08 04:52:07 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "base_url('"
+[Method: POST, Route: administrator/base_url%28%27/administrator/register%27%29]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('administrator/base_url(\'/administrator/register\')')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('administrator/base_url(\'/administrator/register\')')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\alief\\Downloads\\perpustakaansigma\\public\\index.php')
+CRITICAL - 2025-01-08 04:56:30 --> Error: Cannot call constructor
+[Method: GET, Route: administrator/registerpage]
+in APPPATH\Controllers\Administrator.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Administrator->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\alief\\Downloads\\perpustakaansigma\\public\\index.php')
+CRITICAL - 2025-01-08 04:56:32 --> Error: Cannot call constructor
+[Method: GET, Route: administrator/registerpage]
+in APPPATH\Controllers\Administrator.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Administrator->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\alief\\Downloads\\perpustakaansigma\\public\\index.php')
+CRITICAL - 2025-01-08 04:56:33 --> Error: Cannot call constructor
+[Method: GET, Route: administrator/registerpage]
+in APPPATH\Controllers\Administrator.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Administrator->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\alief\\Downloads\\perpustakaansigma\\public\\index.php')
+CRITICAL - 2025-01-08 04:56:42 --> Error: Cannot call constructor
+[Method: GET, Route: administrator/registerpage]
+in APPPATH\Controllers\Administrator.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Administrator->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\alief\\Downloads\\perpustakaansigma\\public\\index.php')
+CRITICAL - 2025-01-08 04:56:53 --> Error: Cannot call constructor
+[Method: GET, Route: administrator/register]
+in APPPATH\Controllers\Administrator.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Administrator->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\alief\\Downloads\\perpustakaansigma\\public\\index.php')
+CRITICAL - 2025-01-08 04:56:54 --> Error: Cannot call constructor
+[Method: GET, Route: administrator/registerpage]
+in APPPATH\Controllers\Administrator.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Administrator->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\alief\\Downloads\\perpustakaansigma\\public\\index.php')
+CRITICAL - 2025-01-08 04:56:55 --> Error: Cannot call constructor
+[Method: GET, Route: administrator/registerpage]
+in APPPATH\Controllers\Administrator.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Administrator->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\alief\\Downloads\\perpustakaansigma\\public\\index.php')
+CRITICAL - 2025-01-08 04:57:24 --> Error: Cannot call constructor
+[Method: GET, Route: administrator/registerpage]
+in APPPATH\Controllers\Administrator.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Administrator->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\alief\\Downloads\\perpustakaansigma\\public\\index.php')
+CRITICAL - 2025-01-08 04:57:24 --> Error: Cannot call constructor
+[Method: GET, Route: administrator/registerpage]
+in APPPATH\Controllers\Administrator.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Administrator->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\alief\\Downloads\\perpustakaansigma\\public\\index.php')
+CRITICAL - 2025-01-08 04:58:59 --> Error: Cannot call constructor
+[Method: GET, Route: administrator/registerpage]
+in APPPATH\Controllers\Administrator.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Administrator->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\alief\\Downloads\\perpustakaansigma\\public\\index.php')
+CRITICAL - 2025-01-08 04:59:26 --> Error: Cannot call constructor
+[Method: GET, Route: administrator/registerpage]
+in APPPATH\Controllers\Administrator.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Administrator->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\alief\\Downloads\\perpustakaansigma\\public\\index.php')
+CRITICAL - 2025-01-08 05:00:26 --> Error: Cannot call constructor
+[Method: GET, Route: administrator/registerpage]
+in APPPATH\Controllers\Administrator.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Administrator->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\alief\\Downloads\\perpustakaansigma\\public\\index.php')
