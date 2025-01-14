@@ -42,7 +42,8 @@ class ModelPeminjaman extends Model
                         ->join('buku', 'buku.BukuID = koleksipribadi.BukuID') // Join antara tabel 'buku' dan 'koleksipribadi'
                         ->join('kategoribuku_relasi', 'kategoribuku_relasi.BukuID = koleksipribadi.BukuID') // Join antara tabel 'buku' dan 'koleksipribadi'
                         ->join('kategoribuku', 'kategoribuku_relasi.KategoriID = kategoribuku.KategoriID') // Join antara tabel 'buku' dan 'koleksipribadi'
-                        ->select('koleksipribadi.*, buku.Judul, buku.Penulis, buku.Penerbit, buku.TahunTerbit, buku.gambar_path, kategoribuku.NamaKategori, koleksipribadi.KoleksiID') // Pilih kolom yang diinginkan
+                        ->join('peminjaman', 'kategoribuku_relasi.BukuID = peminjaman.BukuID') // Join antara tabel 'buku' dan 'koleksipribadi'
+                        ->select('koleksipribadi.*, buku.Judul, buku.Penulis, buku.Penerbit, buku.TahunTerbit, buku.gambar_path, kategoribuku.NamaKategori, koleksipribadi.KoleksiID, peminjaman.StatusPeminjaman') // Pilih kolom yang diinginkan
                         ->get()
                         ->getResultArray();
     }

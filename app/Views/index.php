@@ -9,6 +9,13 @@
 
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+<!-- Tambahkan di dalam <head> -->
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/raty-js@3.1.0/lib/jquery.raty.css">
+<script src="https://cdn.jsdelivr.net/npm/raty-js@3.1.0/lib/jquery.raty.js"></script>
+
     <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
     <!-- Data Tables -->
@@ -17,6 +24,9 @@
     <!-- Font Google -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <!-- Menambahkan Font Awesome dari CDN -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
     <!-- Own CSS -->
     <link rel="stylesheet" href="style/index.css">
 
@@ -72,6 +82,7 @@
                             <th>Penulis Buku</th>
                             <th>Penerbit</th>
                             <th>Tahun Terbit</th>
+                            <th>Star</th>
                             <th>Genre</th>
                             <?= session()->get('user')['UserKey'] == '3' ? '<th>Pinjam</th>' : '' ?>
                             
@@ -87,16 +98,17 @@
                         <td><?= esc($row['Penulis']); ?></td>
                         <td><?= esc($row['Penerbit']); ?></td>
                         <td><?= esc($row['TahunTerbit']); ?></td>
+                        <td><div class="star-rating"></div></td>
                         <td><?= esc($row['NamaKategori']); ?></td>
                         <?php if(session()->get('user')['UserKey'] == '3'){ ?>
                             <td><button class="btn btn-success" data-id="" onclick="window.location.href='/peminjaman/meminjam/<?= esc($row['BukuID']); ?>'">Meminjam</button>
                             <?php if (!$row['inKoleksi']): ?>
                 <button class="btn btn-success koleksi" data-id-buku="<?= esc($row['BukuID']); ?>">
-                    Tambahkan Koleksi
+                <i class="fa fa-book"></i>
                 </button>
             <?php else: ?>
                 <button class="btn btn-secondary" disabled>
-                    Sudah di Koleksi
+                <i class="fa-solid fa-book"></i>
                 </button>
             <?php endif; ?></td> 
                             <?php } ?>
@@ -108,7 +120,6 @@
         </div>
     </div>
     <!-- Close Container -->
-
     <!-- Footer -->
     <div class="container-fluid">
         <div class="row bg-dark text-white">
@@ -128,12 +139,22 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 
     <!-- Data Tables -->
-    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <script src="https://cdn.datatables.net/1.10.23/js/jquery.dataTables.min.js"></script>
     <script src="https://cdn.datatables.net/1.10.23/js/dataTables.bootstrap5.min.js"></script>
 
     <script>
         $(document).ready(function() {
+            var averageRating = 4.3; // Nilai rata-rata dari database
+    
+    // Inisialisasi Raty
+
+    $('.star-rating').raty({
+        score: 4.3,
+        path: 'https://cdn.jsdelivr.net/npm/raty-js@3.1.0/lib/images/', // Path gambar bintang
+    });
+
+
+
             // Fungsi Table
             $('#data').DataTable();
             // Fungsi Table

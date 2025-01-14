@@ -50,8 +50,7 @@
 
         <div class="row my-2">
             <div class="col-md">
-                <a href="peminjam.php" class="btn btn-warning ms-1"><i class="bi bi-emoji-angry-fill"></i>&nbsp;Kembali ke halaman sebelumnya</a>
-                <a href="/buku/addpage" class="btn btn-success ms-1"><i class="bi bi-emoji-angry-fill"></i>&nbsp;Tambah Data</a>
+                <a onclick="window.history.back()" class="btn btn-warning ms-1"><i class="bi bi-emoji-angry-fill"></i>&nbsp;Kembali ke halaman sebelumnya</a>
             </div>
         </div>
 
@@ -63,9 +62,9 @@
                             <th>Judul Buku</th>
                             <th>Gambar Cover</th>
                             <th>Penulis Buku</th>
-                            <th>Penerbit</th>
-                            <th>Tahun Terbit</th>
                             <th>Kategori</th>
+                            <th>Status peminjaman</th>
+                            <th>Ulasan</th>
                             <th>Aksi</th>
                         </tr>
                     </thead>
@@ -77,10 +76,20 @@
                            <img src="/<?= esc($row['gambar_path']); ?>" style="width:300px;">
                         </td>
                         <td><?= esc($row['Penulis']); ?></td>
-                        <td><?= esc($row['Penerbit']); ?></td>
-                        <td><?= esc($row['TahunTerbit']); ?></td>
                         <td><?= esc($row['NamaKategori']); ?></td>
-                        <td><button class="btn btn-danger hapus-koleksi" data-koleksi-id ="<?= esc($row['KoleksiID']); ?>">Hapus koleksi</button></td>
+
+                        <?php if($row['StatusPeminjaman'] == 'Disetujui'){  ?>
+                            <td><span style="color:green"><?= esc($row['StatusPeminjaman']) ?></span></td>
+                        <?php } elseif($row['StatusPeminjaman'] == 'Menunggu konfirmasi petugas'){ ?>
+                          <td> <?=    esc($row['StatusPeminjaman']); ?> </td> <?php
+                        } ?> 
+
+                        <td>
+                            <?php if($row['StatusPeminjaman'] == 'Disetujui'){ ?> 
+                                <button class="btn btn-danger" onclick="window.location.href='/masukan/<?= $row['BukuID'] ?>'">Beri masukan</button>
+                                <?php } ?>
+                        </td>
+                        <td><button class="btn btn-danger hapus-koleksi" data-koleksi-id ="<?= esc($row['KoleksiID']); ?>">Hapus koleksi</button>      <button class="btn btn-success" data-id="" onclick="window.location.href='/peminjaman/meminjam/<?= esc($row['BukuID']); ?>'">Meminjam</button></td>
                     </tr>
                 <?php endforeach; ?>
                     </tbody>

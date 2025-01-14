@@ -52,3 +52,7 @@ $routes->post('/peminjaman/delete', 'Peminjaman::delete');
 $routes->post('/peminjaman/addkoleksi', 'Peminjaman::addkoleksi');
 $routes->get('/peminjaman/koleksi', 'Peminjaman::koleksi');
 $routes->post('/peminjaman/deletekoleksi', 'Peminjaman::deletekoleksi');
+
+
+$routes->get('/masukan/(:num)', 'Ulasan::ulasan/$1');
+$routes->post('/masukan/add', 'Ulasan::add');
