@@ -20,25 +20,46 @@
     <!-- Own CSS -->
     <link rel="stylesheet" href="style/index.css">
 
-    <title>Kampoeng Batja</title>
+    <title>perpustakaan sigma</title>
 </head>
 
 <body>
 
+<?php if (session()->get('user')){ 
+        $data = session()->get('user'); 
+        echo $data['Username'];
+ }?>
+
+<?php if (session()->getFlashdata('berhasil')){ 
+        ?>
+    <script>
+        alert('<?= session()->getFlashdata('berhasil'); ?>, <?= $data['Username'] ?>');
+        </script>
+        <?php }?>
 
     <!-- Container -->
     <div class="container">
         <div class="row my-2">
             <div class="col-md">
-                <h3 class="text-center fw-bold text-uppercase">Data buku</h3>
+                <h3 class="text-center fw-bold text-uppercase">Perpustakaan Sigma</h3>
                 <hr>
             </div>
         </div>
         <div class="row my-2">
             <div class="col-md">
-                <a href="addData.php" class="btn btn-primary"><i class="bi bi-person-plus-fill"></i>&nbsp;Tambah Data</a>
-                <a href="export.php" target="_blank" class="btn btn-success ms-1"><i class="bi bi-file-earmark-spreadsheet-fill"></i>&nbsp;Ekspor ke Excel</a>
-                <a href="peminjam.php" class="btn btn-warning ms-1"><i class="bi bi-emoji-angry-fill"></i>&nbsp;Data peminjam</a>
+                <?php if($data['UserKey'] == '1' || $data['UserKey'] == '2'){ ?>
+                                 <a href="/buku/kategori" class="btn btn-primary"><i class="bi bi-person-plus-fill"></i>&nbsp;Tambahkan kategori buku</a>  
+                                 <a href="/peminjaman/detail" class="btn btn-primary"><i class="bi bi-person-plus-fill"></i>&nbsp;Detail Peminjaman</a>  
+                                 <a href="/buku/data" class="btn btn-success ms-1"><i class="bi bi-file-earmark-spreadsheet-fill"></i>&nbsp;Data Buku</a> 
+                    <?php } ?>
+
+                <a href="/logout" class="btn btn-warning ms-1"><i class="bi bi-emoji-angry-fill"></i>&nbsp;Logout</a>
+                <a href="/peminjaman/koleksi" class="btn btn-warning ms-1"><i class="bi bi-emoji-angry-fill"></i>&nbsp;Daftar Koleksi</a>
+
+                <?php if($data['UserKey'] == '1'){ ?>
+                <a href="/petugas/registerpage" class="btn btn-warning ms-1"><i class="bi bi-emoji-angry-fill"></i>&nbsp;Tambahkan user petugas</a>
+                <?php } ?>
+
             </div>
         </div>
         <div class="row my-3">
@@ -46,19 +67,41 @@
                 <table id="data" class="table table-striped table-responsive table-hover text-center" style="width:100%">
                     <thead class="table-dark">
                         <tr>
-                            <th>No.</th>
-                            <th>Nama Buku</th>
-                            <th>Pengarang</th>
+                            <th>Judul Buku</th>
+                            <th>Gambar Cover</th>
+                            <th>Penulis Buku</th>
                             <th>Penerbit</th>
-                            <th>Harga</th>
+                            <th>Tahun Terbit</th>
                             <th>Genre</th>
-                            <th>Jumlah halaman</th>
-                            <th>Gambar buku</th>
-                            <th>Aksi</th>
+                            <?= session()->get('user')['UserKey'] == '3' ? '<th>Pinjam</th>' : '' ?>
+                            
                         </tr>
                     </thead>
                     <tbody>
-
+                    <?php foreach ($buku as $row) : ?>
+                    <tr>
+                        <td><?= esc($row['Judul']); ?></td>
+                        <td>
+                           <img src="/<?= esc($row['gambar_path']); ?>" style="width:300px;">
+                        </td>
+                        <td><?= esc($row['Penulis']); ?></td>
+                        <td><?= esc($row['Penerbit']); ?></td>
+                        <td><?= esc($row['TahunTerbit']); ?></td>
+                        <td><?= esc($row['NamaKategori']); ?></td>
+                        <?php if(session()->get('user')['UserKey'] == '3'){ ?>
+                            <td><button class="btn btn-success" data-id="" onclick="window.location.href='/peminjaman/meminjam/<?= esc($row['BukuID']); ?>'">Meminjam</button>
+                            <?php if (!$row['inKoleksi']): ?>
+                <button class="btn btn-success koleksi" data-id-buku="<?= esc($row['BukuID']); ?>">
+                    Tambahkan Koleksi
+                </button>
+            <?php else: ?>
+                <button class="btn btn-secondary" disabled>
+                    Sudah di Koleksi
+                </button>
+            <?php endif; ?></td> 
+                            <?php } ?>
+                    </tr>
+                <?php endforeach; ?>
                     </tbody>
                 </table>
             </div>
@@ -112,6 +155,29 @@
                 });
             });
             // Fungsi Detail
+            // Fungsi Detail
+            $('.koleksi').click(function() {
+        var idbuku = $(this).data('id-buku'); // Mengambil ID dari data-id
+        if (confirm('Yakin ingin menambahkan koleksi?')) {
+            $.ajax({
+                url: '/peminjaman/addkoleksi',    // URL ke controller method hapus
+                type: 'POST',
+                data: { idbuku: idbuku },            // Data yang dikirim
+                success: function(response) {
+                    if (response.success) {
+                        alert('Buku berhasil disimpan!');
+                        location.reload();
+                    } else {
+                        alert('Gagal menyimpan bbuku!');
+                    }
+                },
+                error: function() {
+                    alert('Terjadi kesalahan!');
+                }
+            });
+        }
+    });
+
         });
     </script>
 </body>

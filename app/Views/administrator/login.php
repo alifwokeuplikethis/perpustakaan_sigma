@@ -15,18 +15,30 @@
     <!-- Own CSS -->
 
 
-    <title>Perpus</title>
+    <title>Perpus English Club</title>
 </head>
 
 <body>
+
+<?php if (session()->getFlashdata('berhasil')): ?>
+    <div class="alert alert-success">
+        <?= session()->getFlashdata('berhasil'); ?>
+    </div>
+<?php endif; ?>
+
+<?php if (session()->getFlashdata('error')): ?>
+    <div class="alert alert-danger">
+        <?= session()->getFlashdata('error'); ?>
+    </div>
+<?php endif; ?>
 
 
     <div class="container">
         <div class="row my-5">
             <div class="col-md-6 text-center login" style="background-image: url('/img/memphis-colorful.png');">
-                <h4 class="fw-bold">Login | Admin</h4>
+                <h4 class="fw-bold">Login | English Club</h4>
                 <!-- Ini Error jika tidak bisa login -->
-                <form action="" method="post">
+                <form action="<?php echo base_url('/administrator/logon'); ?>" method="post">
                     <div class="form-group user">
                         <input type="text" class="form-control w-50" placeholder="Masukkan Username" name="username" autocomplete="off" required>
                     </div>

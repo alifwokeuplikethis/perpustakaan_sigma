@@ -270,3 +270,646 @@ in APPPATH\Controllers\Administrator.php on line 11.
  5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
  7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\alief\\Downloads\\perpustakaansigma\\public\\index.php')
+CRITICAL - 2025-01-08 06:56:32 --> Error: Class "CI_Model" not found
+[Method: GET, Route: administrator/login]
+in APPPATH\Models\ModelAdministrator.php on line 4.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\alief\\Downloads\\perpustakaansigma\\app\\Models\\ModelAdministrator.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\ModelAdministrator')
+ 4 APPPATH\Controllers\Administrator.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\ModelAdministrator')
+ 5 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Administrator->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\alief\\Downloads\\perpustakaansigma\\public\\index.php')
+CRITICAL - 2025-01-08 07:04:02 --> Error: Class "App\Models\ModelAdministrator" not found
+[Method: GET, Route: administrator/login]
+in APPPATH\Controllers\Administrator.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Administrator->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\alief\\Downloads\\perpustakaansigma\\public\\index.php')
+CRITICAL - 2025-01-08 07:04:03 --> Error: Class "App\Models\ModelAdministrator" not found
+[Method: GET, Route: administrator/login]
+in APPPATH\Controllers\Administrator.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Administrator->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\alief\\Downloads\\perpustakaansigma\\public\\index.php')
+ERROR - 2025-01-08 07:22:18 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\Users\alief\Downloads\perpustakaansigma\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\Users\alief\Downloads\perpustakaansigma\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), 'digitalibrary', 3306, '', 0)
+#1 C:\Users\alief\Downloads\perpustakaansigma\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\alief\Downloads\perpustakaansigma\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\alief\Downloads\perpustakaansigma\system\Database\BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\Users\alief\Downloads\perpustakaansigma\system\Model.php(676): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\Users\alief\Downloads\perpustakaansigma\app\Models\ModelAdministrator.php(15): CodeIgniter\Model->countAllResults()
+#6 C:\Users\alief\Downloads\perpustakaansigma\app\Controllers\Administrator.php(34): App\Models\ModelAdministrator->cek_data(Array)
+#7 C:\Users\alief\Downloads\perpustakaansigma\system\CodeIgniter.php(933): App\Controllers\Administrator->register()
+#8 C:\Users\alief\Downloads\perpustakaansigma\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+#9 C:\Users\alief\Downloads\perpustakaansigma\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\alief\Downloads\perpustakaansigma\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\alief\Downloads\perpustakaansigma\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\Users\alief\Downloads\perpustakaansigma\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\Users\alief\Downloads\perpustakaansigma\system\rewrite.php(44): require_once('C:\\Users\\alief\\...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\Users\alief\Downloads\perpustakaansigma\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\Users\alief\Downloads\perpustakaansigma\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\alief\Downloads\perpustakaansigma\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\alief\Downloads\perpustakaansigma\system\Database\BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#3 C:\Users\alief\Downloads\perpustakaansigma\system\Model.php(676): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#4 C:\Users\alief\Downloads\perpustakaansigma\app\Models\ModelAdministrator.php(15): CodeIgniter\Model->countAllResults()
+#5 C:\Users\alief\Downloads\perpustakaansigma\app\Controllers\Administrator.php(34): App\Models\ModelAdministrator->cek_data(Array)
+#6 C:\Users\alief\Downloads\perpustakaansigma\system\CodeIgniter.php(933): App\Controllers\Administrator->register()
+#7 C:\Users\alief\Downloads\perpustakaansigma\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+#8 C:\Users\alief\Downloads\perpustakaansigma\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\alief\Downloads\perpustakaansigma\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\alief\Downloads\perpustakaansigma\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\Users\alief\Downloads\perpustakaansigma\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\Users\alief\Downloads\perpustakaansigma\system\rewrite.php(44): require_once('C:\\Users\\alief\\...')
+#13 {main}
+CRITICAL - 2025-01-08 07:22:18 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+[Method: POST, Route: administrator/register]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `user`
+WHERE `username` = :username:', [...], false)
+ 3 SYSTEMPATH\Model.php(676): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 4 APPPATH\Models\ModelAdministrator.php(15): CodeIgniter\Model->countAllResults()
+ 5 APPPATH\Controllers\Administrator.php(34): App\Models\ModelAdministrator->cek_data([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Administrator->register()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\alief\\Downloads\\perpustakaansigma\\public\\index.php')
+ERROR - 2025-01-08 07:27:57 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\Users\alief\Downloads\perpustakaansigma\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\Users\alief\Downloads\perpustakaansigma\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), 'digitalibrary', 3306, '', 0)
+#1 C:\Users\alief\Downloads\perpustakaansigma\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\alief\Downloads\perpustakaansigma\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\alief\Downloads\perpustakaansigma\system\Database\BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\Users\alief\Downloads\perpustakaansigma\system\Model.php(676): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\Users\alief\Downloads\perpustakaansigma\app\Models\ModelAdministrator.php(15): CodeIgniter\Model->countAllResults()
+#6 C:\Users\alief\Downloads\perpustakaansigma\app\Controllers\Administrator.php(34): App\Models\ModelAdministrator->cek_data(Array)
+#7 C:\Users\alief\Downloads\perpustakaansigma\system\CodeIgniter.php(933): App\Controllers\Administrator->register()
+#8 C:\Users\alief\Downloads\perpustakaansigma\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+#9 C:\Users\alief\Downloads\perpustakaansigma\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\alief\Downloads\perpustakaansigma\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\alief\Downloads\perpustakaansigma\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\Users\alief\Downloads\perpustakaansigma\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\Users\alief\Downloads\perpustakaansigma\system\rewrite.php(44): require_once('C:\\Users\\alief\\...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\Users\alief\Downloads\perpustakaansigma\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\Users\alief\Downloads\perpustakaansigma\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\alief\Downloads\perpustakaansigma\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\alief\Downloads\perpustakaansigma\system\Database\BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#3 C:\Users\alief\Downloads\perpustakaansigma\system\Model.php(676): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#4 C:\Users\alief\Downloads\perpustakaansigma\app\Models\ModelAdministrator.php(15): CodeIgniter\Model->countAllResults()
+#5 C:\Users\alief\Downloads\perpustakaansigma\app\Controllers\Administrator.php(34): App\Models\ModelAdministrator->cek_data(Array)
+#6 C:\Users\alief\Downloads\perpustakaansigma\system\CodeIgniter.php(933): App\Controllers\Administrator->register()
+#7 C:\Users\alief\Downloads\perpustakaansigma\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+#8 C:\Users\alief\Downloads\perpustakaansigma\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\alief\Downloads\perpustakaansigma\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\alief\Downloads\perpustakaansigma\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\Users\alief\Downloads\perpustakaansigma\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\Users\alief\Downloads\perpustakaansigma\system\rewrite.php(44): require_once('C:\\Users\\alief\\...')
+#13 {main}
+CRITICAL - 2025-01-08 07:27:57 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+[Method: POST, Route: administrator/register]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `user`
+WHERE `username` = :username:', [...], false)
+ 3 SYSTEMPATH\Model.php(676): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 4 APPPATH\Models\ModelAdministrator.php(15): CodeIgniter\Model->countAllResults()
+ 5 APPPATH\Controllers\Administrator.php(34): App\Models\ModelAdministrator->cek_data([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Administrator->register()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\alief\\Downloads\\perpustakaansigma\\public\\index.php')
+ERROR - 2025-01-08 07:30:09 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\Users\alief\Downloads\perpustakaansigma\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\Users\alief\Downloads\perpustakaansigma\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), 'digitalibrary', 3306, '', 0)
+#1 C:\Users\alief\Downloads\perpustakaansigma\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\alief\Downloads\perpustakaansigma\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\alief\Downloads\perpustakaansigma\system\Database\BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\Users\alief\Downloads\perpustakaansigma\system\Model.php(676): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\Users\alief\Downloads\perpustakaansigma\app\Models\ModelAdministrator.php(15): CodeIgniter\Model->countAllResults()
+#6 C:\Users\alief\Downloads\perpustakaansigma\app\Controllers\Administrator.php(34): App\Models\ModelAdministrator->cek_data(Array)
+#7 C:\Users\alief\Downloads\perpustakaansigma\system\CodeIgniter.php(933): App\Controllers\Administrator->register()
+#8 C:\Users\alief\Downloads\perpustakaansigma\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+#9 C:\Users\alief\Downloads\perpustakaansigma\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\alief\Downloads\perpustakaansigma\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\alief\Downloads\perpustakaansigma\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\Users\alief\Downloads\perpustakaansigma\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\Users\alief\Downloads\perpustakaansigma\system\rewrite.php(44): require_once('C:\\Users\\alief\\...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\Users\alief\Downloads\perpustakaansigma\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\Users\alief\Downloads\perpustakaansigma\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\alief\Downloads\perpustakaansigma\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\alief\Downloads\perpustakaansigma\system\Database\BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#3 C:\Users\alief\Downloads\perpustakaansigma\system\Model.php(676): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#4 C:\Users\alief\Downloads\perpustakaansigma\app\Models\ModelAdministrator.php(15): CodeIgniter\Model->countAllResults()
+#5 C:\Users\alief\Downloads\perpustakaansigma\app\Controllers\Administrator.php(34): App\Models\ModelAdministrator->cek_data(Array)
+#6 C:\Users\alief\Downloads\perpustakaansigma\system\CodeIgniter.php(933): App\Controllers\Administrator->register()
+#7 C:\Users\alief\Downloads\perpustakaansigma\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+#8 C:\Users\alief\Downloads\perpustakaansigma\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\alief\Downloads\perpustakaansigma\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\alief\Downloads\perpustakaansigma\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\Users\alief\Downloads\perpustakaansigma\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\Users\alief\Downloads\perpustakaansigma\system\rewrite.php(44): require_once('C:\\Users\\alief\\...')
+#13 {main}
+CRITICAL - 2025-01-08 07:30:09 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+[Method: POST, Route: administrator/register]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `user`
+WHERE `username` = :username:', [...], false)
+ 3 SYSTEMPATH\Model.php(676): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 4 APPPATH\Models\ModelAdministrator.php(15): CodeIgniter\Model->countAllResults()
+ 5 APPPATH\Controllers\Administrator.php(34): App\Models\ModelAdministrator->cek_data([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Administrator->register()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\alief\\Downloads\\perpustakaansigma\\public\\index.php')
+ERROR - 2025-01-08 07:31:24 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\Users\alief\Downloads\perpustakaansigma\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\Users\alief\Downloads\perpustakaansigma\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), 'digitalibrary', 3306, '', 0)
+#1 C:\Users\alief\Downloads\perpustakaansigma\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\alief\Downloads\perpustakaansigma\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\alief\Downloads\perpustakaansigma\system\Database\BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\Users\alief\Downloads\perpustakaansigma\system\Model.php(676): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\Users\alief\Downloads\perpustakaansigma\app\Models\ModelAdministrator.php(15): CodeIgniter\Model->countAllResults()
+#6 C:\Users\alief\Downloads\perpustakaansigma\app\Controllers\Administrator.php(33): App\Models\ModelAdministrator->cek_data(Array)
+#7 C:\Users\alief\Downloads\perpustakaansigma\system\CodeIgniter.php(933): App\Controllers\Administrator->register()
+#8 C:\Users\alief\Downloads\perpustakaansigma\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+#9 C:\Users\alief\Downloads\perpustakaansigma\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\alief\Downloads\perpustakaansigma\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\alief\Downloads\perpustakaansigma\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\Users\alief\Downloads\perpustakaansigma\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\Users\alief\Downloads\perpustakaansigma\system\rewrite.php(44): require_once('C:\\Users\\alief\\...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\Users\alief\Downloads\perpustakaansigma\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\Users\alief\Downloads\perpustakaansigma\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\alief\Downloads\perpustakaansigma\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\alief\Downloads\perpustakaansigma\system\Database\BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#3 C:\Users\alief\Downloads\perpustakaansigma\system\Model.php(676): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#4 C:\Users\alief\Downloads\perpustakaansigma\app\Models\ModelAdministrator.php(15): CodeIgniter\Model->countAllResults()
+#5 C:\Users\alief\Downloads\perpustakaansigma\app\Controllers\Administrator.php(33): App\Models\ModelAdministrator->cek_data(Array)
+#6 C:\Users\alief\Downloads\perpustakaansigma\system\CodeIgniter.php(933): App\Controllers\Administrator->register()
+#7 C:\Users\alief\Downloads\perpustakaansigma\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+#8 C:\Users\alief\Downloads\perpustakaansigma\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\alief\Downloads\perpustakaansigma\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\alief\Downloads\perpustakaansigma\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\Users\alief\Downloads\perpustakaansigma\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\Users\alief\Downloads\perpustakaansigma\system\rewrite.php(44): require_once('C:\\Users\\alief\\...')
+#13 {main}
+CRITICAL - 2025-01-08 07:31:24 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+[Method: POST, Route: administrator/register]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `user`
+WHERE `username` = :username:', [...], false)
+ 3 SYSTEMPATH\Model.php(676): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 4 APPPATH\Models\ModelAdministrator.php(15): CodeIgniter\Model->countAllResults()
+ 5 APPPATH\Controllers\Administrator.php(33): App\Models\ModelAdministrator->cek_data([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Administrator->register()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\alief\\Downloads\\perpustakaansigma\\public\\index.php')
+ERROR - 2025-01-08 07:34:22 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\Users\alief\Downloads\perpustakaansigma\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\Users\alief\Downloads\perpustakaansigma\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), 'digitalibrary', 3306, '', 0)
+#1 C:\Users\alief\Downloads\perpustakaansigma\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\alief\Downloads\perpustakaansigma\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\alief\Downloads\perpustakaansigma\system\Database\BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\Users\alief\Downloads\perpustakaansigma\system\Model.php(676): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\Users\alief\Downloads\perpustakaansigma\app\Models\ModelAdministrator.php(15): CodeIgniter\Model->countAllResults()
+#6 C:\Users\alief\Downloads\perpustakaansigma\app\Controllers\Administrator.php(33): App\Models\ModelAdministrator->cek_data(Array)
+#7 C:\Users\alief\Downloads\perpustakaansigma\system\CodeIgniter.php(933): App\Controllers\Administrator->register()
+#8 C:\Users\alief\Downloads\perpustakaansigma\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+#9 C:\Users\alief\Downloads\perpustakaansigma\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\alief\Downloads\perpustakaansigma\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\alief\Downloads\perpustakaansigma\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\Users\alief\Downloads\perpustakaansigma\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\Users\alief\Downloads\perpustakaansigma\system\rewrite.php(44): require_once('C:\\Users\\alief\\...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\Users\alief\Downloads\perpustakaansigma\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\Users\alief\Downloads\perpustakaansigma\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\alief\Downloads\perpustakaansigma\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\alief\Downloads\perpustakaansigma\system\Database\BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#3 C:\Users\alief\Downloads\perpustakaansigma\system\Model.php(676): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#4 C:\Users\alief\Downloads\perpustakaansigma\app\Models\ModelAdministrator.php(15): CodeIgniter\Model->countAllResults()
+#5 C:\Users\alief\Downloads\perpustakaansigma\app\Controllers\Administrator.php(33): App\Models\ModelAdministrator->cek_data(Array)
+#6 C:\Users\alief\Downloads\perpustakaansigma\system\CodeIgniter.php(933): App\Controllers\Administrator->register()
+#7 C:\Users\alief\Downloads\perpustakaansigma\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+#8 C:\Users\alief\Downloads\perpustakaansigma\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\alief\Downloads\perpustakaansigma\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\alief\Downloads\perpustakaansigma\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\Users\alief\Downloads\perpustakaansigma\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\Users\alief\Downloads\perpustakaansigma\system\rewrite.php(44): require_once('C:\\Users\\alief\\...')
+#13 {main}
+CRITICAL - 2025-01-08 07:34:22 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+[Method: POST, Route: administrator/register]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `user`
+WHERE `username` = :username:', [...], false)
+ 3 SYSTEMPATH\Model.php(676): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 4 APPPATH\Models\ModelAdministrator.php(15): CodeIgniter\Model->countAllResults()
+ 5 APPPATH\Controllers\Administrator.php(33): App\Models\ModelAdministrator->cek_data([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Administrator->register()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\alief\\Downloads\\perpustakaansigma\\public\\index.php')
+CRITICAL - 2025-01-08 07:34:49 --> ParseError: syntax error, unexpected token "}"
+[Method: POST, Route: administrator/register]
+in APPPATH\Controllers\Administrator.php on line 34.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\alief\\Downloads\\perpustakaansigma\\app\\Controllers\\Administrator.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Administrator')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Administrator')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Administrator', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\alief\\Downloads\\perpustakaansigma\\public\\index.php')
+CRITICAL - 2025-01-08 07:34:52 --> ParseError: syntax error, unexpected token "}"
+[Method: POST, Route: administrator/register]
+in APPPATH\Controllers\Administrator.php on line 34.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\alief\\Downloads\\perpustakaansigma\\app\\Controllers\\Administrator.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Administrator')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Administrator')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Administrator', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\alief\\Downloads\\perpustakaansigma\\public\\index.php')
+CRITICAL - 2025-01-08 07:34:52 --> ParseError: syntax error, unexpected token "}"
+[Method: POST, Route: administrator/register]
+in APPPATH\Controllers\Administrator.php on line 34.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\alief\\Downloads\\perpustakaansigma\\app\\Controllers\\Administrator.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Administrator')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Administrator')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Administrator', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\alief\\Downloads\\perpustakaansigma\\public\\index.php')
+CRITICAL - 2025-01-08 07:34:52 --> ParseError: syntax error, unexpected token "}"
+[Method: POST, Route: administrator/register]
+in APPPATH\Controllers\Administrator.php on line 34.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\alief\\Downloads\\perpustakaansigma\\app\\Controllers\\Administrator.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Administrator')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Administrator')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Administrator', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\alief\\Downloads\\perpustakaansigma\\public\\index.php')
+CRITICAL - 2025-01-08 07:34:52 --> ParseError: syntax error, unexpected token "}"
+[Method: GET, Route: administrator/registerpage]
+in APPPATH\Controllers\Administrator.php on line 34.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\alief\\Downloads\\perpustakaansigma\\app\\Controllers\\Administrator.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Administrator')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Administrator')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Administrator', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\alief\\Downloads\\perpustakaansigma\\public\\index.php')
+CRITICAL - 2025-01-08 07:34:55 --> ParseError: syntax error, unexpected token "}"
+[Method: GET, Route: administrator/registerpage]
+in APPPATH\Controllers\Administrator.php on line 34.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\alief\\Downloads\\perpustakaansigma\\app\\Controllers\\Administrator.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Administrator')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Administrator')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Administrator', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\alief\\Downloads\\perpustakaansigma\\public\\index.php')
+CRITICAL - 2025-01-08 07:36:38 --> ErrorException: Undefined variable $where
+[Method: GET, Route: administrator/registerpage]
+in APPPATH\Controllers\Administrator.php on line 22.
+ 1 APPPATH\Controllers\Administrator.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $where', 'C:\\Users\\alief\\Downloads\\perpustakaansigma\\app\\Controllers\\Administrator.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Administrator->register_page()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\alief\\Downloads\\perpustakaansigma\\public\\index.php')
+ERROR - 2025-01-08 07:43:59 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\Users\alief\Downloads\perpustakaansigma\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\Users\alief\Downloads\perpustakaansigma\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), 'digitalibrary', 3306, '', 0)
+#1 C:\Users\alief\Downloads\perpustakaansigma\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\alief\Downloads\perpustakaansigma\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\alief\Downloads\perpustakaansigma\system\Database\BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\Users\alief\Downloads\perpustakaansigma\system\Model.php(676): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\Users\alief\Downloads\perpustakaansigma\app\Models\ModelAdministrator.php(15): CodeIgniter\Model->countAllResults()
+#6 C:\Users\alief\Downloads\perpustakaansigma\app\Controllers\Administrator.php(33): App\Models\ModelAdministrator->cek_data(Array)
+#7 C:\Users\alief\Downloads\perpustakaansigma\system\CodeIgniter.php(933): App\Controllers\Administrator->register()
+#8 C:\Users\alief\Downloads\perpustakaansigma\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+#9 C:\Users\alief\Downloads\perpustakaansigma\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\alief\Downloads\perpustakaansigma\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\alief\Downloads\perpustakaansigma\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\Users\alief\Downloads\perpustakaansigma\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\Users\alief\Downloads\perpustakaansigma\system\rewrite.php(44): require_once('C:\\Users\\alief\\...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\Users\alief\Downloads\perpustakaansigma\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\Users\alief\Downloads\perpustakaansigma\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\alief\Downloads\perpustakaansigma\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\alief\Downloads\perpustakaansigma\system\Database\BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#3 C:\Users\alief\Downloads\perpustakaansigma\system\Model.php(676): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#4 C:\Users\alief\Downloads\perpustakaansigma\app\Models\ModelAdministrator.php(15): CodeIgniter\Model->countAllResults()
+#5 C:\Users\alief\Downloads\perpustakaansigma\app\Controllers\Administrator.php(33): App\Models\ModelAdministrator->cek_data(Array)
+#6 C:\Users\alief\Downloads\perpustakaansigma\system\CodeIgniter.php(933): App\Controllers\Administrator->register()
+#7 C:\Users\alief\Downloads\perpustakaansigma\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+#8 C:\Users\alief\Downloads\perpustakaansigma\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\alief\Downloads\perpustakaansigma\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\alief\Downloads\perpustakaansigma\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\Users\alief\Downloads\perpustakaansigma\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\Users\alief\Downloads\perpustakaansigma\system\rewrite.php(44): require_once('C:\\Users\\alief\\...')
+#13 {main}
+CRITICAL - 2025-01-08 07:43:59 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+[Method: POST, Route: administrator/register]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `user`
+WHERE `username` = :username:', [...], false)
+ 3 SYSTEMPATH\Model.php(676): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 4 APPPATH\Models\ModelAdministrator.php(15): CodeIgniter\Model->countAllResults()
+ 5 APPPATH\Controllers\Administrator.php(33): App\Models\ModelAdministrator->cek_data([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Administrator->register()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\alief\\Downloads\\perpustakaansigma\\public\\index.php')
+ERROR - 2025-01-08 07:45:51 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\Users\alief\Downloads\perpustakaansigma\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\Users\alief\Downloads\perpustakaansigma\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), 'digitalibrary', 3306, '', 0)
+#1 C:\Users\alief\Downloads\perpustakaansigma\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\alief\Downloads\perpustakaansigma\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\alief\Downloads\perpustakaansigma\system\Database\BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\Users\alief\Downloads\perpustakaansigma\system\Model.php(676): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\Users\alief\Downloads\perpustakaansigma\app\Models\ModelAdministrator.php(15): CodeIgniter\Model->countAllResults()
+#6 C:\Users\alief\Downloads\perpustakaansigma\app\Controllers\Administrator.php(33): App\Models\ModelAdministrator->cek_data(Array)
+#7 C:\Users\alief\Downloads\perpustakaansigma\system\CodeIgniter.php(933): App\Controllers\Administrator->register()
+#8 C:\Users\alief\Downloads\perpustakaansigma\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+#9 C:\Users\alief\Downloads\perpustakaansigma\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\alief\Downloads\perpustakaansigma\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\alief\Downloads\perpustakaansigma\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\Users\alief\Downloads\perpustakaansigma\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\Users\alief\Downloads\perpustakaansigma\system\rewrite.php(44): require_once('C:\\Users\\alief\\...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\Users\alief\Downloads\perpustakaansigma\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\Users\alief\Downloads\perpustakaansigma\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\alief\Downloads\perpustakaansigma\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\alief\Downloads\perpustakaansigma\system\Database\BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#3 C:\Users\alief\Downloads\perpustakaansigma\system\Model.php(676): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#4 C:\Users\alief\Downloads\perpustakaansigma\app\Models\ModelAdministrator.php(15): CodeIgniter\Model->countAllResults()
+#5 C:\Users\alief\Downloads\perpustakaansigma\app\Controllers\Administrator.php(33): App\Models\ModelAdministrator->cek_data(Array)
+#6 C:\Users\alief\Downloads\perpustakaansigma\system\CodeIgniter.php(933): App\Controllers\Administrator->register()
+#7 C:\Users\alief\Downloads\perpustakaansigma\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+#8 C:\Users\alief\Downloads\perpustakaansigma\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\alief\Downloads\perpustakaansigma\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\alief\Downloads\perpustakaansigma\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\Users\alief\Downloads\perpustakaansigma\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\Users\alief\Downloads\perpustakaansigma\system\rewrite.php(44): require_once('C:\\Users\\alief\\...')
+#13 {main}
+CRITICAL - 2025-01-08 07:45:51 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+[Method: POST, Route: administrator/register]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `user`
+WHERE `username` = :username:', [...], false)
+ 3 SYSTEMPATH\Model.php(676): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 4 APPPATH\Models\ModelAdministrator.php(15): CodeIgniter\Model->countAllResults()
+ 5 APPPATH\Controllers\Administrator.php(33): App\Models\ModelAdministrator->cek_data([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Administrator->register()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\alief\\Downloads\\perpustakaansigma\\public\\index.php')
+ERROR - 2025-01-08 07:58:24 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\Users\alief\Downloads\perpustakaansigma\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\Users\alief\Downloads\perpustakaansigma\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), 'digitalibrary', 3306, '', 0)
+#1 C:\Users\alief\Downloads\perpustakaansigma\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\alief\Downloads\perpustakaansigma\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\alief\Downloads\perpustakaansigma\system\Database\BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\Users\alief\Downloads\perpustakaansigma\system\Model.php(676): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\Users\alief\Downloads\perpustakaansigma\app\Models\ModelAdministrator.php(15): CodeIgniter\Model->countAllResults()
+#6 C:\Users\alief\Downloads\perpustakaansigma\app\Controllers\Administrator.php(33): App\Models\ModelAdministrator->cek_data(Array)
+#7 C:\Users\alief\Downloads\perpustakaansigma\system\CodeIgniter.php(933): App\Controllers\Administrator->register()
+#8 C:\Users\alief\Downloads\perpustakaansigma\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+#9 C:\Users\alief\Downloads\perpustakaansigma\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\alief\Downloads\perpustakaansigma\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\alief\Downloads\perpustakaansigma\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\Users\alief\Downloads\perpustakaansigma\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\Users\alief\Downloads\perpustakaansigma\system\rewrite.php(44): require_once('C:\\Users\\alief\\...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\Users\alief\Downloads\perpustakaansigma\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\Users\alief\Downloads\perpustakaansigma\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\alief\Downloads\perpustakaansigma\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\alief\Downloads\perpustakaansigma\system\Database\BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#3 C:\Users\alief\Downloads\perpustakaansigma\system\Model.php(676): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#4 C:\Users\alief\Downloads\perpustakaansigma\app\Models\ModelAdministrator.php(15): CodeIgniter\Model->countAllResults()
+#5 C:\Users\alief\Downloads\perpustakaansigma\app\Controllers\Administrator.php(33): App\Models\ModelAdministrator->cek_data(Array)
+#6 C:\Users\alief\Downloads\perpustakaansigma\system\CodeIgniter.php(933): App\Controllers\Administrator->register()
+#7 C:\Users\alief\Downloads\perpustakaansigma\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+#8 C:\Users\alief\Downloads\perpustakaansigma\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\alief\Downloads\perpustakaansigma\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\alief\Downloads\perpustakaansigma\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\Users\alief\Downloads\perpustakaansigma\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\Users\alief\Downloads\perpustakaansigma\system\rewrite.php(44): require_once('C:\\Users\\alief\\...')
+#13 {main}
+CRITICAL - 2025-01-08 07:58:24 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+[Method: POST, Route: administrator/register]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `user`
+WHERE `username` = :username:', [...], false)
+ 3 SYSTEMPATH\Model.php(676): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 4 APPPATH\Models\ModelAdministrator.php(15): CodeIgniter\Model->countAllResults()
+ 5 APPPATH\Controllers\Administrator.php(33): App\Models\ModelAdministrator->cek_data([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Administrator->register()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\alief\\Downloads\\perpustakaansigma\\public\\index.php')
+ERROR - 2025-01-08 07:58:38 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\Users\alief\Downloads\perpustakaansigma\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\Users\alief\Downloads\perpustakaansigma\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), 'digitalibrary', 3306, '', 0)
+#1 C:\Users\alief\Downloads\perpustakaansigma\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\alief\Downloads\perpustakaansigma\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\alief\Downloads\perpustakaansigma\system\Database\BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\Users\alief\Downloads\perpustakaansigma\system\Model.php(676): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\Users\alief\Downloads\perpustakaansigma\app\Models\ModelAdministrator.php(15): CodeIgniter\Model->countAllResults()
+#6 C:\Users\alief\Downloads\perpustakaansigma\app\Controllers\Administrator.php(33): App\Models\ModelAdministrator->cek_data(Array)
+#7 C:\Users\alief\Downloads\perpustakaansigma\system\CodeIgniter.php(933): App\Controllers\Administrator->register()
+#8 C:\Users\alief\Downloads\perpustakaansigma\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+#9 C:\Users\alief\Downloads\perpustakaansigma\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\alief\Downloads\perpustakaansigma\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\alief\Downloads\perpustakaansigma\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\Users\alief\Downloads\perpustakaansigma\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\Users\alief\Downloads\perpustakaansigma\system\rewrite.php(44): require_once('C:\\Users\\alief\\...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\Users\alief\Downloads\perpustakaansigma\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\Users\alief\Downloads\perpustakaansigma\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\alief\Downloads\perpustakaansigma\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\alief\Downloads\perpustakaansigma\system\Database\BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#3 C:\Users\alief\Downloads\perpustakaansigma\system\Model.php(676): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#4 C:\Users\alief\Downloads\perpustakaansigma\app\Models\ModelAdministrator.php(15): CodeIgniter\Model->countAllResults()
+#5 C:\Users\alief\Downloads\perpustakaansigma\app\Controllers\Administrator.php(33): App\Models\ModelAdministrator->cek_data(Array)
+#6 C:\Users\alief\Downloads\perpustakaansigma\system\CodeIgniter.php(933): App\Controllers\Administrator->register()
+#7 C:\Users\alief\Downloads\perpustakaansigma\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+#8 C:\Users\alief\Downloads\perpustakaansigma\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\alief\Downloads\perpustakaansigma\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\alief\Downloads\perpustakaansigma\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\Users\alief\Downloads\perpustakaansigma\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\Users\alief\Downloads\perpustakaansigma\system\rewrite.php(44): require_once('C:\\Users\\alief\\...')
+#13 {main}
+CRITICAL - 2025-01-08 07:58:38 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+[Method: POST, Route: administrator/register]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `user`
+WHERE `username` = :username:', [...], false)
+ 3 SYSTEMPATH\Model.php(676): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 4 APPPATH\Models\ModelAdministrator.php(15): CodeIgniter\Model->countAllResults()
+ 5 APPPATH\Controllers\Administrator.php(33): App\Models\ModelAdministrator->cek_data([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Administrator->register()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\alief\\Downloads\\perpustakaansigma\\public\\index.php')
+ERROR - 2025-01-08 07:58:39 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\Users\alief\Downloads\perpustakaansigma\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\Users\alief\Downloads\perpustakaansigma\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), 'digitalibrary', 3306, '', 0)
+#1 C:\Users\alief\Downloads\perpustakaansigma\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\alief\Downloads\perpustakaansigma\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\alief\Downloads\perpustakaansigma\system\Database\BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\Users\alief\Downloads\perpustakaansigma\system\Model.php(676): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\Users\alief\Downloads\perpustakaansigma\app\Models\ModelAdministrator.php(15): CodeIgniter\Model->countAllResults()
+#6 C:\Users\alief\Downloads\perpustakaansigma\app\Controllers\Administrator.php(33): App\Models\ModelAdministrator->cek_data(Array)
+#7 C:\Users\alief\Downloads\perpustakaansigma\system\CodeIgniter.php(933): App\Controllers\Administrator->register()
+#8 C:\Users\alief\Downloads\perpustakaansigma\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+#9 C:\Users\alief\Downloads\perpustakaansigma\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\alief\Downloads\perpustakaansigma\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\alief\Downloads\perpustakaansigma\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\Users\alief\Downloads\perpustakaansigma\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\Users\alief\Downloads\perpustakaansigma\system\rewrite.php(44): require_once('C:\\Users\\alief\\...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\Users\alief\Downloads\perpustakaansigma\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\Users\alief\Downloads\perpustakaansigma\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\alief\Downloads\perpustakaansigma\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\alief\Downloads\perpustakaansigma\system\Database\BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#3 C:\Users\alief\Downloads\perpustakaansigma\system\Model.php(676): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#4 C:\Users\alief\Downloads\perpustakaansigma\app\Models\ModelAdministrator.php(15): CodeIgniter\Model->countAllResults()
+#5 C:\Users\alief\Downloads\perpustakaansigma\app\Controllers\Administrator.php(33): App\Models\ModelAdministrator->cek_data(Array)
+#6 C:\Users\alief\Downloads\perpustakaansigma\system\CodeIgniter.php(933): App\Controllers\Administrator->register()
+#7 C:\Users\alief\Downloads\perpustakaansigma\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+#8 C:\Users\alief\Downloads\perpustakaansigma\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\alief\Downloads\perpustakaansigma\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\alief\Downloads\perpustakaansigma\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\Users\alief\Downloads\perpustakaansigma\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\Users\alief\Downloads\perpustakaansigma\system\rewrite.php(44): require_once('C:\\Users\\alief\\...')
+#13 {main}
+CRITICAL - 2025-01-08 07:58:39 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+[Method: POST, Route: administrator/register]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `user`
+WHERE `username` = :username:', [...], false)
+ 3 SYSTEMPATH\Model.php(676): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 4 APPPATH\Models\ModelAdministrator.php(15): CodeIgniter\Model->countAllResults()
+ 5 APPPATH\Controllers\Administrator.php(33): App\Models\ModelAdministrator->cek_data([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Administrator->register()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\alief\\Downloads\\perpustakaansigma\\public\\index.php')

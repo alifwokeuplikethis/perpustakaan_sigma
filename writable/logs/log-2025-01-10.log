@@ -1,0 +1,637 @@
+CRITICAL - 2025-01-10 01:04:14 --> ErrorException: Undefined property: CodeIgniter\View\View::$session
+[Method: GET, Route: administrator/registerpage]
+in APPPATH\Views\administrator\register.php on line 23.
+ 1 APPPATH\Views\administrator\register.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'C:\\Users\\alief\\Downloads\\perpustakaansigma\\app\\Views\\administrator\\register.php', 23)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\alief\\Downloads\\perpustakaansigma\\app\\Views\\administrator\\register.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('administrator/register', [], true)
+ 5 APPPATH\Controllers\Administrator.php(47): view('administrator/register')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Administrator->register_page()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\alief\\Downloads\\perpustakaansigma\\public\\index.php')
+CRITICAL - 2025-01-10 01:04:16 --> ErrorException: Undefined property: CodeIgniter\View\View::$session
+[Method: GET, Route: administrator/registerpage]
+in APPPATH\Views\administrator\register.php on line 23.
+ 1 APPPATH\Views\administrator\register.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'C:\\Users\\alief\\Downloads\\perpustakaansigma\\app\\Views\\administrator\\register.php', 23)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\alief\\Downloads\\perpustakaansigma\\app\\Views\\administrator\\register.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('administrator/register', [], true)
+ 5 APPPATH\Controllers\Administrator.php(47): view('administrator/register')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Administrator->register_page()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\alief\\Downloads\\perpustakaansigma\\public\\index.php')
+CRITICAL - 2025-01-10 01:04:17 --> ErrorException: Undefined property: CodeIgniter\View\View::$session
+[Method: GET, Route: administrator/registerpage]
+in APPPATH\Views\administrator\register.php on line 23.
+ 1 APPPATH\Views\administrator\register.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'C:\\Users\\alief\\Downloads\\perpustakaansigma\\app\\Views\\administrator\\register.php', 23)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\alief\\Downloads\\perpustakaansigma\\app\\Views\\administrator\\register.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('administrator/register', [], true)
+ 5 APPPATH\Controllers\Administrator.php(47): view('administrator/register')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Administrator->register_page()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\alief\\Downloads\\perpustakaansigma\\public\\index.php')
+CRITICAL - 2025-01-10 01:04:45 --> ErrorException: Undefined property: CodeIgniter\View\View::$session
+[Method: GET, Route: administrator/login]
+in APPPATH\Views\administrator\login.php on line 23.
+ 1 APPPATH\Views\administrator\login.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'C:\\Users\\alief\\Downloads\\perpustakaansigma\\app\\Views\\administrator\\login.php', 23)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\alief\\Downloads\\perpustakaansigma\\app\\Views\\administrator\\login.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('administrator/login', [], true)
+ 5 APPPATH\Controllers\Administrator.php(18): view('administrator/login')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Administrator->login()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\alief\\Downloads\\perpustakaansigma\\public\\index.php')
+CRITICAL - 2025-01-10 01:04:46 --> ErrorException: Undefined property: CodeIgniter\View\View::$session
+[Method: GET, Route: administrator/login]
+in APPPATH\Views\administrator\login.php on line 23.
+ 1 APPPATH\Views\administrator\login.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'C:\\Users\\alief\\Downloads\\perpustakaansigma\\app\\Views\\administrator\\login.php', 23)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\alief\\Downloads\\perpustakaansigma\\app\\Views\\administrator\\login.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('administrator/login', [], true)
+ 5 APPPATH\Controllers\Administrator.php(18): view('administrator/login')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Administrator->login()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\alief\\Downloads\\perpustakaansigma\\public\\index.php')
+CRITICAL - 2025-01-10 01:04:51 --> ErrorException: Undefined property: CodeIgniter\View\View::$session
+[Method: GET, Route: administrator/registerpage]
+in APPPATH\Views\administrator\register.php on line 23.
+ 1 APPPATH\Views\administrator\register.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'C:\\Users\\alief\\Downloads\\perpustakaansigma\\app\\Views\\administrator\\register.php', 23)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\alief\\Downloads\\perpustakaansigma\\app\\Views\\administrator\\register.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('administrator/register', [], true)
+ 5 APPPATH\Controllers\Administrator.php(47): view('administrator/register')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Administrator->register_page()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\alief\\Downloads\\perpustakaansigma\\public\\index.php')
+CRITICAL - 2025-01-10 01:05:05 --> ErrorException: Undefined property: CodeIgniter\View\View::$session
+[Method: GET, Route: administrator/registerpage]
+in APPPATH\Views\administrator\register.php on line 23.
+ 1 APPPATH\Views\administrator\register.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'C:\\Users\\alief\\Downloads\\perpustakaansigma\\app\\Views\\administrator\\register.php', 23)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\alief\\Downloads\\perpustakaansigma\\app\\Views\\administrator\\register.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('administrator/register', [], true)
+ 5 APPPATH\Controllers\Administrator.php(47): view('administrator/register')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Administrator->register_page()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\alief\\Downloads\\perpustakaansigma\\public\\index.php')
+CRITICAL - 2025-01-10 01:05:06 --> ErrorException: Undefined property: CodeIgniter\View\View::$session
+[Method: GET, Route: administrator/registerpage]
+in APPPATH\Views\administrator\register.php on line 23.
+ 1 APPPATH\Views\administrator\register.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'C:\\Users\\alief\\Downloads\\perpustakaansigma\\app\\Views\\administrator\\register.php', 23)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\alief\\Downloads\\perpustakaansigma\\app\\Views\\administrator\\register.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('administrator/register', [], true)
+ 5 APPPATH\Controllers\Administrator.php(47): view('administrator/register')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Administrator->register_page()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\alief\\Downloads\\perpustakaansigma\\public\\index.php')
+CRITICAL - 2025-01-10 01:05:50 --> ErrorException: Undefined property: CodeIgniter\View\View::$session
+[Method: GET, Route: administrator/registerpage]
+in APPPATH\Views\administrator\register.php on line 23.
+ 1 APPPATH\Views\administrator\register.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'C:\\Users\\alief\\Downloads\\perpustakaansigma\\app\\Views\\administrator\\register.php', 23)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\alief\\Downloads\\perpustakaansigma\\app\\Views\\administrator\\register.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('administrator/register', [], true)
+ 5 APPPATH\Controllers\Administrator.php(47): view('administrator/register')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Administrator->register_page()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\alief\\Downloads\\perpustakaansigma\\public\\index.php')
+CRITICAL - 2025-01-10 01:05:51 --> ErrorException: Undefined property: CodeIgniter\View\View::$session
+[Method: GET, Route: administrator/registerpage]
+in APPPATH\Views\administrator\register.php on line 23.
+ 1 APPPATH\Views\administrator\register.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'C:\\Users\\alief\\Downloads\\perpustakaansigma\\app\\Views\\administrator\\register.php', 23)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\alief\\Downloads\\perpustakaansigma\\app\\Views\\administrator\\register.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('administrator/register', [], true)
+ 5 APPPATH\Controllers\Administrator.php(47): view('administrator/register')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Administrator->register_page()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\alief\\Downloads\\perpustakaansigma\\public\\index.php')
+CRITICAL - 2025-01-10 01:05:52 --> ErrorException: Undefined property: CodeIgniter\View\View::$session
+[Method: GET, Route: administrator/registerpage]
+in APPPATH\Views\administrator\register.php on line 23.
+ 1 APPPATH\Views\administrator\register.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'C:\\Users\\alief\\Downloads\\perpustakaansigma\\app\\Views\\administrator\\register.php', 23)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\alief\\Downloads\\perpustakaansigma\\app\\Views\\administrator\\register.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('administrator/register', [], true)
+ 5 APPPATH\Controllers\Administrator.php(47): view('administrator/register')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Administrator->register_page()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\alief\\Downloads\\perpustakaansigma\\public\\index.php')
+CRITICAL - 2025-01-10 01:05:54 --> ErrorException: Undefined property: CodeIgniter\View\View::$session
+[Method: GET, Route: administrator/registerpage]
+in APPPATH\Views\administrator\register.php on line 23.
+ 1 APPPATH\Views\administrator\register.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'C:\\Users\\alief\\Downloads\\perpustakaansigma\\app\\Views\\administrator\\register.php', 23)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\alief\\Downloads\\perpustakaansigma\\app\\Views\\administrator\\register.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('administrator/register', [], true)
+ 5 APPPATH\Controllers\Administrator.php(47): view('administrator/register')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Administrator->register_page()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\alief\\Downloads\\perpustakaansigma\\public\\index.php')
+CRITICAL - 2025-01-10 01:15:27 --> ErrorException: Undefined property: CodeIgniter\View\View::$session
+[Method: GET, Route: administrator/registerpage]
+in APPPATH\Views\administrator\register.php on line 23.
+ 1 APPPATH\Views\administrator\register.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'C:\\Users\\alief\\Downloads\\perpustakaansigma\\app\\Views\\administrator\\register.php', 23)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\alief\\Downloads\\perpustakaansigma\\app\\Views\\administrator\\register.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('administrator/register', [], true)
+ 5 APPPATH\Controllers\Administrator.php(47): view('administrator/register')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Administrator->register_page()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\alief\\Downloads\\perpustakaansigma\\public\\index.php')
+CRITICAL - 2025-01-10 01:16:03 --> Error: Call to a member function flashdata() on null
+[Method: GET, Route: administrator/registerpage]
+in APPPATH\Views\administrator\register.php on line 23.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('administrator/register', [], true)
+ 4 APPPATH\Controllers\Administrator.php(47): view('administrator/register')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Administrator->register_page()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\alief\\Downloads\\perpustakaansigma\\public\\index.php')
+CRITICAL - 2025-01-10 01:16:05 --> Error: Call to a member function flashdata() on null
+[Method: GET, Route: administrator/registerpage]
+in APPPATH\Views\administrator\register.php on line 23.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('administrator/register', [], true)
+ 4 APPPATH\Controllers\Administrator.php(47): view('administrator/register')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Administrator->register_page()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\alief\\Downloads\\perpustakaansigma\\public\\index.php')
+CRITICAL - 2025-01-10 01:16:47 --> ErrorException: Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+[Method: GET, Route: administrator/registerpage]
+in APPPATH\Views\administrator\register.php on line 23.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+DEBUG - 2025-01-10 01:17:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 01:18:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-10 01:18:55 --> ErrorException: Undefined property: CodeIgniter\View\View::$session
+[Method: GET, Route: administrator/login]
+in APPPATH\Views\administrator\login.php on line 23.
+ 1 APPPATH\Views\administrator\login.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'C:\\Users\\alief\\Downloads\\perpustakaansigma\\app\\Views\\administrator\\login.php', 23)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\alief\\Downloads\\perpustakaansigma\\app\\Views\\administrator\\login.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('administrator/login', [], true)
+ 5 APPPATH\Controllers\Administrator.php(18): view('administrator/login')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Administrator->login()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\alief\\Downloads\\perpustakaansigma\\public\\index.php')
+CRITICAL - 2025-01-10 01:18:56 --> ErrorException: Undefined property: CodeIgniter\View\View::$session
+[Method: GET, Route: administrator/login]
+in APPPATH\Views\administrator\login.php on line 23.
+ 1 APPPATH\Views\administrator\login.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'C:\\Users\\alief\\Downloads\\perpustakaansigma\\app\\Views\\administrator\\login.php', 23)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\alief\\Downloads\\perpustakaansigma\\app\\Views\\administrator\\login.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('administrator/login', [], true)
+ 5 APPPATH\Controllers\Administrator.php(18): view('administrator/login')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Administrator->login()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\alief\\Downloads\\perpustakaansigma\\public\\index.php')
+DEBUG - 2025-01-10 01:19:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 01:21:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 01:21:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 01:23:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 01:25:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 01:25:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-10 01:25:57 --> ErrorException: Undefined property: App\Controllers\Administrator::$input
+[Method: POST, Route: administrator/logon]
+in APPPATH\Controllers\Administrator.php on line 23.
+ 1 APPPATH\Controllers\Administrator.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Administrator::$input', 'C:\\Users\\alief\\Downloads\\perpustakaansigma\\app\\Controllers\\Administrator.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Administrator->logon()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\alief\\Downloads\\perpustakaansigma\\public\\index.php')
+DEBUG - 2025-01-10 01:30:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 01:30:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-10 01:30:50 --> ErrorException: Undefined array key "password"
+[Method: POST, Route: administrator/logon]
+in APPPATH\Controllers\Administrator.php on line 31.
+ 1 APPPATH\Controllers\Administrator.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "password"', 'C:\\Users\\alief\\Downloads\\perpustakaansigma\\app\\Controllers\\Administrator.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Administrator->logon()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\alief\\Downloads\\perpustakaansigma\\public\\index.php')
+DEBUG - 2025-01-10 01:33:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 01:33:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-10 01:34:00 --> ErrorException: Undefined array key "password"
+[Method: POST, Route: administrator/logon]
+in APPPATH\Controllers\Administrator.php on line 31.
+ 1 APPPATH\Controllers\Administrator.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "password"', 'C:\\Users\\alief\\Downloads\\perpustakaansigma\\app\\Controllers\\Administrator.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Administrator->logon()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\alief\\Downloads\\perpustakaansigma\\public\\index.php')
+DEBUG - 2025-01-10 01:36:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 01:36:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-10 01:36:20 --> ErrorException: Attempt to read property "password" on array
+[Method: POST, Route: administrator/logon]
+in APPPATH\Controllers\Administrator.php on line 31.
+ 1 APPPATH\Controllers\Administrator.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "password" on array', 'C:\\Users\\alief\\Downloads\\perpustakaansigma\\app\\Controllers\\Administrator.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Administrator->logon()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\alief\\Downloads\\perpustakaansigma\\public\\index.php')
+DEBUG - 2025-01-10 01:43:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 01:43:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-10 01:43:48 --> CodeIgniter\HTTP\Exceptions\HTTPException: The route for "/index" cannot be found.
+[Method: POST, Route: administrator/logon]
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 63.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(63): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('/index')
+ 2 SYSTEMPATH\Common.php(853): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Administrator.php(34): redirect('/index')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Administrator->logon()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\alief\\Downloads\\perpustakaansigma\\public\\index.php')
+DEBUG - 2025-01-10 01:44:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 01:44:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 01:44:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-10 01:44:29 --> CodeIgniter\HTTP\Exceptions\HTTPException: The route for "/index" cannot be found.
+[Method: POST, Route: administrator/logon]
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 63.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(63): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('/index')
+ 2 SYSTEMPATH\Common.php(853): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Administrator.php(34): redirect('/index')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Administrator->logon()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\alief\\Downloads\\perpustakaansigma\\public\\index.php')
+DEBUG - 2025-01-10 01:44:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-10 01:44:30 --> CodeIgniter\HTTP\Exceptions\HTTPException: The route for "/index" cannot be found.
+[Method: POST, Route: administrator/logon]
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 63.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(63): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('/index')
+ 2 SYSTEMPATH\Common.php(853): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Administrator.php(34): redirect('/index')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Administrator->logon()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\alief\\Downloads\\perpustakaansigma\\public\\index.php')
+DEBUG - 2025-01-10 06:24:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 06:24:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-10 06:25:11 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\Users\alief\Downloads\perpustakaansigma\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\Users\alief\Downloads\perpustakaansigma\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'digitalibrary', 3306, '', 0)
+#1 C:\Users\alief\Downloads\perpustakaansigma\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\alief\Downloads\perpustakaansigma\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\alief\Downloads\perpustakaansigma\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\alief\Downloads\perpustakaansigma\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\alief\Downloads\perpustakaansigma\system\BaseModel.php(713): CodeIgniter\Model->doFirst()
+#6 C:\Users\alief\Downloads\perpustakaansigma\app\Models\ModelAdministrator.php(26): CodeIgniter\BaseModel->first()
+#7 C:\Users\alief\Downloads\perpustakaansigma\app\Controllers\Administrator.php(27): App\Models\ModelAdministrator->login_session('admin')
+#8 C:\Users\alief\Downloads\perpustakaansigma\system\CodeIgniter.php(933): App\Controllers\Administrator->logon()
+#9 C:\Users\alief\Downloads\perpustakaansigma\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+#10 C:\Users\alief\Downloads\perpustakaansigma\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\alief\Downloads\perpustakaansigma\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\alief\Downloads\perpustakaansigma\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\Users\alief\Downloads\perpustakaansigma\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\Users\alief\Downloads\perpustakaansigma\system\rewrite.php(44): require_once('C:\\Users\\alief\\...')
+#15 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\Users\alief\Downloads\perpustakaansigma\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\Users\alief\Downloads\perpustakaansigma\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\alief\Downloads\perpustakaansigma\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\alief\Downloads\perpustakaansigma\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\alief\Downloads\perpustakaansigma\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\alief\Downloads\perpustakaansigma\system\BaseModel.php(713): CodeIgniter\Model->doFirst()
+#5 C:\Users\alief\Downloads\perpustakaansigma\app\Models\ModelAdministrator.php(26): CodeIgniter\BaseModel->first()
+#6 C:\Users\alief\Downloads\perpustakaansigma\app\Controllers\Administrator.php(27): App\Models\ModelAdministrator->login_session('admin')
+#7 C:\Users\alief\Downloads\perpustakaansigma\system\CodeIgniter.php(933): App\Controllers\Administrator->logon()
+#8 C:\Users\alief\Downloads\perpustakaansigma\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+#9 C:\Users\alief\Downloads\perpustakaansigma\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\alief\Downloads\perpustakaansigma\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\alief\Downloads\perpustakaansigma\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\Users\alief\Downloads\perpustakaansigma\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\Users\alief\Downloads\perpustakaansigma\system\rewrite.php(44): require_once('C:\\Users\\alief\\...')
+#14 {main}
+CRITICAL - 2025-01-10 06:25:11 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: POST, Route: administrator/logon]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `Username` = :Username:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Models\ModelAdministrator.php(26): CodeIgniter\BaseModel->first()
+ 6 APPPATH\Controllers\Administrator.php(27): App\Models\ModelAdministrator->login_session('admin')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Administrator->logon()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\alief\\Downloads\\perpustakaansigma\\public\\index.php')
+DEBUG - 2025-01-10 06:25:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-10 06:25:33 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\Users\alief\Downloads\perpustakaansigma\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\Users\alief\Downloads\perpustakaansigma\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'digitalibrary', 3306, '', 0)
+#1 C:\Users\alief\Downloads\perpustakaansigma\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\alief\Downloads\perpustakaansigma\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\alief\Downloads\perpustakaansigma\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\alief\Downloads\perpustakaansigma\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\alief\Downloads\perpustakaansigma\system\BaseModel.php(713): CodeIgniter\Model->doFirst()
+#6 C:\Users\alief\Downloads\perpustakaansigma\app\Models\ModelAdministrator.php(26): CodeIgniter\BaseModel->first()
+#7 C:\Users\alief\Downloads\perpustakaansigma\app\Controllers\Administrator.php(27): App\Models\ModelAdministrator->login_session('admin')
+#8 C:\Users\alief\Downloads\perpustakaansigma\system\CodeIgniter.php(933): App\Controllers\Administrator->logon()
+#9 C:\Users\alief\Downloads\perpustakaansigma\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+#10 C:\Users\alief\Downloads\perpustakaansigma\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\alief\Downloads\perpustakaansigma\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\alief\Downloads\perpustakaansigma\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\Users\alief\Downloads\perpustakaansigma\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\Users\alief\Downloads\perpustakaansigma\system\rewrite.php(44): require_once('C:\\Users\\alief\\...')
+#15 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\Users\alief\Downloads\perpustakaansigma\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\Users\alief\Downloads\perpustakaansigma\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\alief\Downloads\perpustakaansigma\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\alief\Downloads\perpustakaansigma\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\alief\Downloads\perpustakaansigma\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\alief\Downloads\perpustakaansigma\system\BaseModel.php(713): CodeIgniter\Model->doFirst()
+#5 C:\Users\alief\Downloads\perpustakaansigma\app\Models\ModelAdministrator.php(26): CodeIgniter\BaseModel->first()
+#6 C:\Users\alief\Downloads\perpustakaansigma\app\Controllers\Administrator.php(27): App\Models\ModelAdministrator->login_session('admin')
+#7 C:\Users\alief\Downloads\perpustakaansigma\system\CodeIgniter.php(933): App\Controllers\Administrator->logon()
+#8 C:\Users\alief\Downloads\perpustakaansigma\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+#9 C:\Users\alief\Downloads\perpustakaansigma\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\alief\Downloads\perpustakaansigma\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\alief\Downloads\perpustakaansigma\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\Users\alief\Downloads\perpustakaansigma\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\Users\alief\Downloads\perpustakaansigma\system\rewrite.php(44): require_once('C:\\Users\\alief\\...')
+#14 {main}
+CRITICAL - 2025-01-10 06:25:33 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: POST, Route: administrator/logon]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `Username` = :Username:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Models\ModelAdministrator.php(26): CodeIgniter\BaseModel->first()
+ 6 APPPATH\Controllers\Administrator.php(27): App\Models\ModelAdministrator->login_session('admin')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Administrator->logon()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\alief\\Downloads\\perpustakaansigma\\public\\index.php')
+DEBUG - 2025-01-10 06:25:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 06:26:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-10 06:26:33 --> Error: Undefined constant "App\Controllers\redirect"
+[Method: POST, Route: administrator/logon]
+in APPPATH\Controllers\Administrator.php on line 34.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Administrator->logon()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\alief\\Downloads\\perpustakaansigma\\public\\index.php')
+DEBUG - 2025-01-10 06:27:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 06:27:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 06:27:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 06:27:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 06:27:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 06:28:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 06:31:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 06:31:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 06:32:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 06:32:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 06:32:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 06:43:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 06:50:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 06:53:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 06:54:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 06:55:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 06:55:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 07:45:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 07:48:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 07:48:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-10 07:48:23 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\Users\alief\Downloads\perpustakaansigma\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\Users\alief\Downloads\perpustakaansigma\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'digitalibrary', 3306, '', 0)
+#1 C:\Users\alief\Downloads\perpustakaansigma\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\alief\Downloads\perpustakaansigma\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\alief\Downloads\perpustakaansigma\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\alief\Downloads\perpustakaansigma\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\alief\Downloads\perpustakaansigma\system\BaseModel.php(713): CodeIgniter\Model->doFirst()
+#6 C:\Users\alief\Downloads\perpustakaansigma\app\Models\ModelAdministrator.php(26): CodeIgniter\BaseModel->first()
+#7 C:\Users\alief\Downloads\perpustakaansigma\app\Controllers\Administrator.php(27): App\Models\ModelAdministrator->login_session('admin')
+#8 C:\Users\alief\Downloads\perpustakaansigma\system\CodeIgniter.php(933): App\Controllers\Administrator->logon()
+#9 C:\Users\alief\Downloads\perpustakaansigma\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+#10 C:\Users\alief\Downloads\perpustakaansigma\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\alief\Downloads\perpustakaansigma\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\alief\Downloads\perpustakaansigma\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\Users\alief\Downloads\perpustakaansigma\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\Users\alief\Downloads\perpustakaansigma\system\rewrite.php(44): require_once('C:\\Users\\alief\\...')
+#15 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\Users\alief\Downloads\perpustakaansigma\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\Users\alief\Downloads\perpustakaansigma\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\alief\Downloads\perpustakaansigma\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\alief\Downloads\perpustakaansigma\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\alief\Downloads\perpustakaansigma\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\alief\Downloads\perpustakaansigma\system\BaseModel.php(713): CodeIgniter\Model->doFirst()
+#5 C:\Users\alief\Downloads\perpustakaansigma\app\Models\ModelAdministrator.php(26): CodeIgniter\BaseModel->first()
+#6 C:\Users\alief\Downloads\perpustakaansigma\app\Controllers\Administrator.php(27): App\Models\ModelAdministrator->login_session('admin')
+#7 C:\Users\alief\Downloads\perpustakaansigma\system\CodeIgniter.php(933): App\Controllers\Administrator->logon()
+#8 C:\Users\alief\Downloads\perpustakaansigma\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+#9 C:\Users\alief\Downloads\perpustakaansigma\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\alief\Downloads\perpustakaansigma\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\alief\Downloads\perpustakaansigma\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\Users\alief\Downloads\perpustakaansigma\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\Users\alief\Downloads\perpustakaansigma\system\rewrite.php(44): require_once('C:\\Users\\alief\\...')
+#14 {main}
+CRITICAL - 2025-01-10 07:48:23 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: POST, Route: administrator/logon]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `Username` = :Username:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Models\ModelAdministrator.php(26): CodeIgniter\BaseModel->first()
+ 6 APPPATH\Controllers\Administrator.php(27): App\Models\ModelAdministrator->login_session('admin')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Administrator->logon()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\alief\\Downloads\\perpustakaansigma\\public\\index.php')
+DEBUG - 2025-01-10 07:48:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 07:50:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 07:50:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 07:50:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 07:50:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 07:52:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 07:52:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 07:52:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 07:53:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 07:53:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 07:53:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 07:56:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 07:57:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 07:57:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 07:57:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 07:59:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 08:01:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 08:01:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 08:01:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 08:02:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 08:02:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 08:02:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 08:10:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 08:10:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 08:10:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-10 08:10:15 --> ErrorException: Array to string conversion
+[Method: GET, Route: index]
+in APPPATH\Views\index.php on line 30.
+ 1 APPPATH\Views\index.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\Users\\alief\\Downloads\\perpustakaansigma\\app\\Views\\index.php', 30)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\alief\\Downloads\\perpustakaansigma\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(13): view('index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->perpus()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\alief\\Downloads\\perpustakaansigma\\public\\index.php')
+DEBUG - 2025-01-10 08:12:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 08:12:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 08:12:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 08:14:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 08:14:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 08:14:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 08:15:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 08:17:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 08:19:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 08:19:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 08:23:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 08:23:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 08:23:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 08:23:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 08:23:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 08:23:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 08:30:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 08:30:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 08:32:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 08:32:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 08:32:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 08:32:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 08:41:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 08:41:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 08:41:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 08:41:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 08:41:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 08:44:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 08:44:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 08:44:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 08:45:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 08:45:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 08:45:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 08:45:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

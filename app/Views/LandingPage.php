@@ -9,15 +9,16 @@
   <link rel="stylesheet" type="text/css" href="<?= base_url('style/style.css') ?>">
 </head>
 
-<body>
+<body>>
+
     <section class="conteudo-principal">
       <div class="conteudo-principal-escrito">
         <h1 class="conteudo-principal-escrito-titulo">Perpustakaan Sigma</h1>
 
         <div class="conteudo-principal-botoes">
-    <button class="conteudo-principal-escrito-botao" onclick="window.location.href='loginadmin'">Administrator</button>
-    <button class="conteudo-principal-escrito-botao" onclick="window.location.href='wlee'">Peminjam</button>
-    <button class="conteudo-principal-escrito-botao" onclick="window.location.href='wlee'">Petugas</button>
+    <button class="conteudo-principal-escrito-botao" onclick="window.location.href='/administrator/login'">Administrator</button>
+    <button class="conteudo-principal-escrito-botao" onclick="window.location.href='/peminjam/login'">Peminjam</button>
+    <button class="conteudo-principal-escrito-botao" onclick="window.location.href='/petugas/login'">Petugas</button>
   </div>
       </div>
     </section>

@@ -20,13 +20,18 @@
 
 <body>
 
+<?php if (session()->getFlashdata('error')): ?>
+    <div class="alert alert-danger">
+        <?= session()->getFlashdata('error'); ?>
+    </div>
+<?php endif; ?>
 
     <div class="container">
         <div class="row my-5">
             <div class="col-md-6 text-center login" style="background-image: url('/img/memphis-colorful.png');height: 600px;">
                 <h4 class="fw-bold">Register | Admin</h4>
                 <!-- Ini Error jika tidak bisa login -->
-                <form action="<?php echo base_url('administrator/register'); ?>" method="post">
+                <form action="<?php echo base_url('/administrator/register'); ?>" method="post">
                     <div class="form-group user">
                         <input type="text" class="form-control w-50" placeholder="Masukkan Username" name="username" autocomplete="off" required>
                     </div>
